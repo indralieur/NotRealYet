@@ -1,0 +1,25 @@
+[gd_scene load_steps=7 format=3 uid="uid://bd82f1ho68qvc"]
+
+[ext_resource type="PackedScene" uid="uid://b24va5nn1cwkq" path="res://scenes/BattleUI.tscn" id="1_ppgk2"]
+[ext_resource type="PackedScene" uid="uid://5mcj3afg00nk" path="res://characters/nazaria.tscn" id="1_w8frs"]
+[ext_resource type="Script" uid="uid://8w0qsq4pqcmo" path="res://scripts/BattleUI.gd" id="2_2r41h"]
+[ext_resource type="Script" uid="uid://bntw8p0k0vssc" path="res://scripts/BattleController.gd" id="2_mx8sn"]
+[ext_resource type="Script" uid="uid://dsturpb651sws" path="res://scenes/TurnManager.gd" id="3_ppgk2"]
+[ext_resource type="PackedScene" uid="uid://doehpl5qjwr0t" path="res://characters/Vanessa.tscn" id="6_2r41h"]
+
+[node name="level" type="Node2D"]
+
+[node name="Nazaria" parent="." instance=ExtResource("1_w8frs")]
+position = Vector2(1064, 424)
+
+[node name="BattleController" type="Node" parent="."]
+script = ExtResource("2_mx8sn")
+
+[node name="TurnManager" type="Node" parent="BattleController"]
+script = ExtResource("3_ppgk2")
+
+[node name="BattleUI" parent="." instance=ExtResource("1_ppgk2")]
+script = ExtResource("2_2r41h")
+
+[node name="Vanessa" parent="." instance=ExtResource("6_2r41h")]
+position = Vector2(132, 434)

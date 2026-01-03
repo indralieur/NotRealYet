@@ -1,0 +1,23 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1767442547
+::res://assets/::1767442466
+Nazaria no bg.png::CompressedTexture2D::4844226977778287673::1766856835::1766856844::1::::<><><>0<>0<>eb601fc8711154bdfccd1b1fe2348607<>res://.godot/imported/Nazaria no bg.png-1f075f63457f73f16d10e2bb6eef784b.ctex::
+nazaria_side.png::CompressedTexture2D::6533191829602681001::1766856919::1766856919::1::::<><><>0<>0<>2797a40010d2abb265c7992b33f3c980<>res://.godot/imported/nazaria_side.png-22e2cd80a634e65b568ec2b155ca7243.ctex::
+Vanessa no bg.png::CompressedTexture2D::1909609076430474235::1766856481::1766856587::1::::<><><>0<>0<>157dc539641008b40e127722284fe0b7<>res://.godot/imported/Vanessa no bg.png-ab211113eac77b41b8af4d1d889cb093.ctex::
+::res://characters/::1767442466
+nazaria.tscn::PackedScene::2130576819210376944::1766857102::0::1::::<><><>0<>0<><>::uid://c0cyykpkndvsj::::res://assets/nazaria_side.png
+Vanessa.tscn::PackedScene::8150615803726797417::1766860952::0::1::::<><><>0<>0<><>::uid://2ha8n03w2eox::::res://assets/Vanessa no bg.png
+::res://resources/::1767442466
+CharacterResource.tres::Resource::8860825488252684958::1766858188::0::1::::<><><>0<>0<><>::
+::res://scenes/::1767442466
+BattleUI.tscn::PackedScene::4342663070044276044::1766860642::0::1::::<><><>0<>0<><>::
+level.tscn::PackedScene::2666761345364963076::1766860974::0::1::::<><><>0<>0<><>::uid://b24va5nn1cwkq::::res://scenes/BattleUI.tscn<>uid://5mcj3afg00nk::::res://characters/nazaria.tscn<>uid://8w0qsq4pqcmo::::res://scripts/BattleUI.gd<>uid://bntw8p0k0vssc::::res://scripts/BattleController.gd<>uid://dsturpb651sws::::res://scenes/TurnManager.gd<>uid://doehpl5qjwr0t::::res://characters/Vanessa.tscn
+TurnManager.gd::GDScript::8463129903087422614::1766858870::0::1::::TurnManager<>Node<><>0<>0<><>::
+::res://scripts/::1767442466
+BattleController.gd::GDScript::3339494360313353574::1766858870::0::1::::<>Node<><>0<>0<><>::
+BattleUI.gd::GDScript::2363195619641500862::1766908353::0::1::::<>CanvasLayer<><>0<>0<><>::
+CharacterBase.gd::GDScript::4224680191570219030::1766857775::0::1::::CharacterBase<>Node2D<><>0<>0<><>::
+CharacterResource.gd::GDScript::5790327314984247877::1766858870::0::1::::CharacterData<>Resource<><>0<>0<><>::
+EnemyCharacter.gd::GDScript::5298411990483614304::1766859285::0::1::::EnemyCharacter<>CharacterBase<><>0<>0<><>::
+PlayerCharacter.gd::GDScript::6726177531235569108::1766859285::0::1::::PlayerCharacter<>CharacterBase<><>0<>0<><>::
+SkillData.gd::GDScript::3412404284878408435::1766859432::0::1::::SkillData<>Resource<><>0<>0<><>::

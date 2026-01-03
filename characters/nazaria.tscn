@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://5mcj3afg00nk"]
+
+[ext_resource type="Texture2D" uid="uid://c0cyykpkndvsj" path="res://assets/nazaria_side.png" id="1_py8mr"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1nyx4"]
+radius = 51.0
+height = 342.0
+
+[node name="Nazaria" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CapsuleShape2D_1nyx4")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-28.000002, -3.000002)
+scale = Vector2(0.34423828, 0.34423828)
+texture = ExtResource("1_py8mr")

@@ -1,0 +1,8 @@
+ProgressBar
+Label
+Control
+CanvasLayer
+Node
+Sprite2D
+CollisionShape2D
+CharacterBody2D
